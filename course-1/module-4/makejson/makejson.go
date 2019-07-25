@@ -19,7 +19,8 @@ func main() {
 	addr := scanner.Text()
 
 	var m = map[string]string{
-		name: addr}
+		"name":    name,
+		"address": addr}
 
 	jsonString, _ := json.Marshal(m)
 
